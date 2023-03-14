@@ -1,16 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[10]:
+# In[41]:
 
 
 from rdflib import Graph, Literal, RDF, URIRef
-import datetime
 import pandas as pd
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 
-# In[11]:
+# In[42]:
 
 
 get_ipython().run_line_magic('reload_ext', 'jupyter-rdfify')
